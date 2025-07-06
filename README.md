@@ -17,8 +17,8 @@ This is a solution to the [Product list with cart challenge on Frontend Mentor](
 
 ### Links
 
--  [Solution URL](https://www.frontendmentor.io/solutions/browser-extensions-manager-solution-iymbmdPbcs)
--  [Live Site URL](https://liam-mcleod.github.io/browser-extensions-manager-ui-main/)
+-  [Solution URL](https://www.frontendmentor.io/solutions/product-list-with-cart-solution--YUyD9wvlj)
+-  [Live Site URL](https://liam-mcleod.github.io/product-list-with-cart-main/)
 
 ## Author
 - Frontend Mentor - [@Liam-McLeod](https://www.frontendmentor.io/profile/Liam-McLeod)
