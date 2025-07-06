@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Product list with cart</title>
+
+</head>
+<body>
+
+  <main>
+
+    <h1>Desserts</h1>
+    <div class="product-grid">
+      <!-- Products will be dynamically added here -->
+    </div>
+
+    <!-- Empty Cart Card -->
+    <div class="cart-card-empty">
+        <h2>Your Cart (0)</h2>
+        <img src="assets/images/illustration-empty-cart.svg" alt="">
+        <p>Your added items will appear here</p> 
+    </div>
+
+    <!-- Full Cart Card -->
+    <div class="cart-card-full hidden">
+        <h2>Your Cart <span class="cart-count">(0)</span></h2>
+
+        <div class="cart-items">
+          <!-- Cart items will be dynamically added here -->
+        </div>
+
+        <div class="cart-total">
+          <p>Order Total</p>
+          <h3 class="total-price">$0.00</h3>
+        </div>
+
+        <div class="carbon-neutral">
+          <img src="assets/images/icon-carbon-neutral.svg" alt="">
+          <p>This is a <span>carbon-neutral</span> delivery</p>
+        </div>
+
+        <button class="confirm-order-btn">Confirm Order</button>
+    </div>
+
+  </main>
+
+
+  <!-- Order Confirmed Modal -->
+  <div class="overlay hidden"></div>
+  <div class="order-confirmed-modal hidden">
+
+    <div>
+      <img src="assets/images/icon-order-confirmed.svg" alt="">
+      <h2>Order Confirmed</h2>
+      <p>We hope you enjoy your food!</p>
+    </div>
+
+    <div class="order-items">
+      <!-- Order items will be dynamically added here -->
+      
+    </div>
+    
+    <button class="new-order-btn">Start New Order</button>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
